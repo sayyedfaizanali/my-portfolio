@@ -1,4 +1,4 @@
-# React Portfolio 2
+# Faizan Portfolio
 ### Vite + React + tailwind
 
 ```bash 
