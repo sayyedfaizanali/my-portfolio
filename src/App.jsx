@@ -6,6 +6,7 @@ import Service from "./components/Services";
 import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
+import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
 // Animation package
@@ -27,6 +28,7 @@ const App = () => {
       <Skills />
       <Service />
       <Projects />
+      <Blogs />
       <Testimonials />
       <Hireme />
       <Contact />

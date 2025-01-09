@@ -18,6 +18,10 @@ import project3 from "./assets/images/projects/E-Commerce.png";
 import project4 from "./assets/images/projects/todolist.png";
 import person_project from "./assets/images/projects/personhire1.png";
 
+import blog1 from "./assets/images/Blogs/Blog1.jpg";
+import blog2 from "./assets/images/Blogs/Blog2.jpg";
+import blog3 from "./assets/images/Blogs/Blog3.jpg";
+
 import avatar1 from "./assets/images/Testimonials/cert1.png";
 import avatar2 from "./assets/images/Testimonials/cert2.png";
 import avatar3 from "./assets/images/Testimonials/cert3.png";
@@ -32,7 +36,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { RiServiceLine, RiProjectorLine, RiAddBoxFill } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
@@ -52,6 +56,10 @@ export const content = {
     {
       link: "#projects",
       icon: RiProjectorLine,
+    },
+    {
+      link: "#blogs",
+      icon: RiAddBoxFill,
     },
     {
       link: "#contact",
@@ -202,9 +210,30 @@ export const content = {
       },
     ],
   },
+  Blogs: {
+    title: "Blogs",
+    subtitle: "MY BLOGS LISTED HERE...",
+    blog_content: [
+      {
+        title: "Build a Custom 404 Page Using React Router V6 and Next.js",
+        image: blog1,
+        href: "https://blogs.perficient.com/2024/12/23/how-to-build-a-custom-404-page-using-react-router-v6-and-custom-404-page-in-next-js/",
+      },
+      {
+        title: "Part 1: Sitecore Quick Guide for the Beginner",
+        image: blog2,
+        href: "https://blogs.perficient.com/2025/01/03/part-1-sitecore-quick-guide-for-the-beginner/",
+      },
+      {
+        title: "Part 2: Sitecore Quick Guide for the Beginner",
+        image: blog3,
+        href: "https://blogs.perficient.com/2025/01/03/part-2-sitecore-quick-guide-for-beginner/",
+      },
+    ],
+  },
   Testimonials: {
     title: "See My",
-    subtitle: "Appriciation Certificates & Shoutout",
+    subtitle: "APPRICIATIONS CERTIFICATES & SHOUT APPRICIATIONS CERTIFICATES",
     testimonials_content: [
       {
         img: avatar1,
