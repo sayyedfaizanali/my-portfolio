@@ -128,8 +128,8 @@ export const content = {
         logo: nextjs,
         skilldescription:
           "I have experience building fast, SEO-friendly web applications using Next.js. I’ve worked with its server-side rendering (SSR) and static site generation (SSG) capabilities to optimize performance and improve SEO. My projects include implementing dynamic routing, handling API routes, and deploying scalable applications with a focus on clean, efficient code.",
-          projecttitle: "Currently Working..",
-          projecthref: "/",
+          projecttitle: "Superbeena Protin Web Page",
+          projecthref: "https://web-page-using-nextjs.vercel.app/",
       },
       {
         name: "Telwind CSS",
@@ -137,8 +137,8 @@ export const content = {
         logo: telwind,
         skilldescription:
           "I am proficient in Tailwind CSS, using its utility-first approach to rapidly build responsive, customizable designs. I’ve utilized Tailwind to streamline development, maintain consistency, and create modern, clean UIs across various projects, ensuring both performance and design flexibility.",
-          projecttitle: "Currently Working..",
-          projecthref: "/",
+          projecttitle: "Superbeena Protin Web Page",
+          projecthref: "https://web-page-using-nextjs.vercel.app/",
       },
       {
         name: "Sitecore CMS",
@@ -201,7 +201,7 @@ export const content = {
       {
         title: "ThinkLife Superbeena Website",
         image: project3,
-        href: "https://sayyedfaizanali.github.io/React-js-website/",
+        href: "https://web-page-using-nextjs.vercel.app/",
       },
       {
         title: "Todo List Item",
@@ -214,6 +214,31 @@ export const content = {
     title: "Blogs",
     subtitle: "MY BLOGS LISTED HERE...",
     blog_content: [
+      {
+        title: "Implementing a Fuzzy Search in React JS Using Fuse.JS",
+        image: blog1,
+        href: "https://blogs.perficient.com/2025/03/17/implementing-a-fuzzy-search-in-react-js-using-fuse-js/",
+      },
+      {
+        title: "Implementing Nested Routes with React Router 6",
+        image: blog1,
+        href: "https://blogs.perficient.com/2025/01/27/implementing-nested-routes-with-react-router-6/",
+      },
+      {
+        title: "Implementing a Color Flipper with JavaScript",
+        image: blog1,
+        href: "https://blogs.perficient.com/2025/01/31/implementing-a-color-flipper-with-javascript-a-simple-guide/",
+      },
+      {
+        title: "Implementing an Accordion with JavaScript: A Simple Guide",
+        image: blog1,
+        href: "https://blogs.perficient.com/2025/03/17/implementing-an-accordion-with-javascript-a-simple-guide/",
+      },
+      {
+        title: "Implementing a Cookie Banner with JavaScript",
+        image: blog1,
+        href: "https://blogs.perficient.com/2025/01/31/implementing-a-cookie-banner-with-javascript-a-simple-guide/",
+      },
       {
         title: "Build a Custom 404 Page Using React Router V6 and Next.js",
         image: blog1,
