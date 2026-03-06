@@ -25,6 +25,7 @@ import blog3 from "./assets/images/Blogs/Blog3.jpg";
 import avatar1 from "./assets/images/Testimonials/cert1.png";
 import avatar2 from "./assets/images/Testimonials/cert2.png";
 import avatar3 from "./assets/images/Testimonials/cert3.png";
+import avatar4 from "./assets/images/Testimonials/EPAM.png";
 
 import Hireme_person from "./assets/images/Hireme/personhire.png";
 import Hireme_person2 from "./assets/images/projects/personhire1.png";
@@ -67,14 +68,14 @@ export const content = {
     },
   ],
   hero: {
-    title: "Front End Developer/Sitecore CMS",
+    title: "Sitecore CMS (Content Manager/Front End Developer)",
     firstName: "FAIZAN",
     LastName: "ALI",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "3+",
+        count: "4.5+",
         text: "Years of expertise in Sitecore CMS and AEM CMS, coupled with front-end skills in HTML, CSS, JavaScript, React JS and Next JS. ",
       },
     ],
@@ -269,6 +270,9 @@ export const content = {
       {
         img: avatar3,
       },
+      {
+        img:avatar4,
+      }
     ],
   },
   Hireme: {
